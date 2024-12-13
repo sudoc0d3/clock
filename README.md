@@ -1,5 +1,5 @@
 # A simple terminal clock in c
-*I maybe call stc pronounced 'stissy'!*
+*I'll maybe call stc pronounced 'stissy'!*
 
 ### Why
 - Trying to build a strong grasp of low level programming in general
@@ -8,7 +8,7 @@
 - Just playing around with c
 
 ### Installation
-I assume that you are using a \*nix based system and have already installed `gcc`
+I assume that you are using a **\*nix** based system and have already installed `gcc`
 ```bash
 git clone https://github.com/sudoc0d3/clock.git 
 cd clock 
@@ -23,3 +23,12 @@ clock mode [hours] [minutes] [seconds]
 mode 1: stopwatch
 mode 0: timer
 ```
+
+### Tools in this software
+- internet *without chatgpt at all; I am avoiding it to strongly learn*
+- *nix based system
+- c language
+- man pages
+- neovim
+- gcc
+- git
