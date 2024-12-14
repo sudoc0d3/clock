@@ -8,7 +8,6 @@
 - Just playing around with c
 
 ### Installation
-I assume that you are using a **\*nix** based system and have already installed `gcc`
 ```bash
 git clone https://github.com/sudoc0d3/clock.git 
 cd clock 
@@ -16,6 +15,9 @@ gcc -o clock clock.c
 # don't run the next line except if you understand what you are doing
 sudo cp clock /usr/bin/ 
 ```
+##### Assumptions
+- You are using a POSIX-compliant (\*nix-based) system
+- You already have `gcc` installed on your system
 
 ### Usage
 ```man
@@ -26,7 +28,7 @@ mode 0: timer
 
 ### Tools in this software
 - internet *without chatgpt at all; I am avoiding it to strongly learn*
-- *nix based system
+- POSIX-compliant (\*nix-based) system
 - c language
 - man pages
 - neovim
